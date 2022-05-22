@@ -1,9 +1,9 @@
 package main
 
 import (
-	"simple-rest/configs"
-	"simple-rest/controllers"
-	"simple-rest/models"
+	"bookify/configs"
+	"bookify/controllers"
+	"bookify/models"
 
 	"github.com/gin-gonic/gin"
 )

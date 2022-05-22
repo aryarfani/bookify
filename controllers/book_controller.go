@@ -1,10 +1,10 @@
 package controllers
 
 import (
+	"bookify/configs"
+	"bookify/helpers"
+	"bookify/models"
 	"net/http"
-	"simple-rest/configs"
-	"simple-rest/helpers"
-	"simple-rest/models"
 
 	"github.com/gin-gonic/gin"
 	"github.com/jinzhu/copier"
