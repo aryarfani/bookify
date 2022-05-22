@@ -29,5 +29,5 @@ func main() {
 	v1.PUT("/users/:user_id", controllers.UpdateUser)
 	v1.DELETE("/users/:user_id", controllers.DeleteUser)
 
-	router.Run()
+	router.Run(":9100")
 }
